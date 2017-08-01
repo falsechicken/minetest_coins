@@ -10,19 +10,19 @@ wieldScale = { x = 0.5, y = 0.5, z = 0.5 }
 --
 
 -- Add Items
-minetest.register_craftitem("jcoins:goldcoin", {
+minetest.register_craftitem("minetest_coins:goldcoin", {
 	description = "Gold Coin",
 	inventory_image = goldCoinTexture,
 	wield_scale = wieldScale,
 	})
 	
-minetest.register_craftitem("jcoins:silvercoin", {
+minetest.register_craftitem("minetest_coins:silvercoin", {
 	description = "Silver Coin",
 	inventory_image = silverCoinTexture,
 	wield_scale = wieldScale,
 	})
 
-minetest.register_craftitem("jcoins:coppercoin", {
+minetest.register_craftitem("minetest_coins:coppercoin", {
 	description = "Copper Coin",
 	inventory_image = copperCoinTexture,
 	wield_scale = wieldScale,
